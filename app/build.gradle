@@ -83,11 +83,10 @@ dependencies {
     //Coroutines Dependencies
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
 
+
     //Koin
-    // Koin Core features
-    implementation "io.insert-koin:koin-core:$koinVersion"
-    // Koin Test features
-    testImplementation "io.insert-koin:koin-test:$koinVersion"
+    implementation "org.koin:koin-android:$koinVersion"
+    implementation "org.koin:koin-androidx-viewmodel:$koinVersion"
 
 
     // Dependencies for local unit tests
